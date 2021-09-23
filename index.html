@@ -17,7 +17,7 @@
                 groupTitleCell.setAttribute("class", "group-title")
                 groupTitleCell.innerHTML = groupTitle.name;
                 var groupChildSize = groupTitle.child.length;
-                for (var rowPosition = 0; rowPosition < Math.ceil(groupChildSize / colSpn0); rowPosition++) {
+                for (var rowPosition = 0; rowPosition < Math.ceil(groupTitle.child.length / colSpn0); rowPosition++) {
                     var childRow = mytable.insertRow();
                     var temp = colSpn0;
                     if (groupChildSize > colSpn0) temp = colSpn0;
