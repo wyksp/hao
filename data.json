@@ -42,6 +42,315 @@
       {
         "name": "人人影视分享站",
         "url": "https://yyets.dmesg.app/"
+      },
+      {
+        "name": "美剧天堂",
+        "url": "https://www.meijutt.tv/"
+      },
+      {
+        "name": "SubHD",
+        "url": "https://subdh.com/"
+      },
+      {
+        "name": "EZTV",
+        "url": "https://eztv.re/"
+      },
+      {
+        "name": "中国高清网",
+        "url": "http://gaoqing.la/"
+      },
+      {
+        "name": "下片王",
+        "url": "http://www.xiepp.cc/"
+      },
+      {
+        "name": "动漫花园资源网",
+        "url": "https://share.dmhy.org/"
+      },
+      {
+        "name": "动漫花园镜像站",
+        "url": "https://dongmanhuayuan.myheartsite.com/"
+      },
+      {
+        "name": "银色子弹字幕组",
+        "url": "https://www.sbsub.com/"
+      }
+    ]
+  },
+  {
+    "name": "字幕资源",
+    "child": [
+      {
+        "name": "SubHD",
+        "url": "https://subhd.tv/"
+      },
+      {
+        "name": "字幕天堂",
+        "url": "https://www.zimutiantang.com/"
+      },
+      {
+        "name": "射手网(伪)",
+        "url": "http://assrt.net/"
+      }
+    ]
+  },
+  {
+    "name": "音乐资源",
+    "child": [
+      {
+        "name": "音乐搜索器",
+        "url": "http://www.musictool.top/"
+      },
+      {
+        "name": "爱给网",
+        "url": "https://www.aigei.com/"
+      }
+    ]
+  },
+  {
+    "name": "电子书资源",
+    "child": [
+      {
+        "name": "好书友论坛",
+        "url": "https://www.93hsy.com/"
+      },
+      {
+        "name": "知轩藏书",
+        "url": "https://www.zxcs.info/"
+      },
+      {
+        "name": "知轩藏书",
+        "url": "http://www.zxcs.me/"
+      },
+      {
+        "name": "免费电子书综合",
+        "url": "https://www.ctakj.com/11820.htm"
+      }
+    ]
+  },
+  {
+    "name": "字体资源",
+    "child": [
+      {
+        "name": "HarmonyOS Sans",
+        "url": "https://www.hanyi.com.cn/custom-font-case-7"
+      },
+      {
+        "name": "阿里巴巴普惠体",
+        "url": "https://alibabafont.taobao.com/wow/alibabafont/act/alifont"
+      },
+      {
+        "name": "JetBrains Mono",
+        "url": "https://www.jetbrains.com/lp/mono/"
+      },
+      {
+        "name": "俄语字体",
+        "url": "https://bayguzin.ru/main/shriftyi/russkij-shriftyi/70-potryasayushhix-kirillicheskix-russkix-shriftov.html"
+      }
+    ]
+  },
+  {
+    "name": "图片·图标",
+    "child": [
+      {
+        "name": "iconfont",
+        "url": "https://www.iconfont.cn/"
+      },
+      {
+        "name": "Icon8",
+        "url": "https://icons8.com/"
+      },
+      {
+        "name": "Shields.io",
+        "url": "https://shields.io/"
+      }
+    ]
+  },
+  {
+    "name": "系统·软件资源",
+    "child": [
+      {
+        "name": "MASN, 我告诉你",
+        "url": "https://next.itellyou.cn/"
+      },
+      {
+        "name": "爱好论坛",
+        "url": "https://www.aihao.cc/"
+      },
+      {
+        "name": "清华大学开源软件镜像站",
+        "url": "https://mirror.tuna.tsinghua.edu.cn/"
+      },
+      {
+        "name": "网易开源镜像站",
+        "url": "http://mirrors.163.com/"
+      },
+      {
+        "name": "不死鸟",
+        "url": "https://iao.su/"
+      }
+    ]
+  },
+  {
+    "name": "技术博客",
+    "child": [
+      {
+        "name": "Android Developer",
+        "url": "https://developer.android.google.cn/"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/"
+      },
+      {
+        "name": "玩Android",
+        "url": "https://wanandroid.com/"
+      },
+      {
+        "name": "干活集中营",
+        "url": "https://gank.io/"
+      },
+      {
+        "name": "DiyGod",
+        "url": "https://diygod.me/"
+      },
+      {
+        "name": "浅蓝",
+        "url": "https://www.qian.blue/"
+      }
+    ]
+  },
+  {
+    "name": "文字·历史",
+    "child": [
+      {
+        "name": "金庸网",
+        "url": "https://www.jinyongwang.net/"
+      },
+      {
+        "name": "全历史",
+        "url": "https://www.allhistory.com/"
+      },
+      {
+        "name": "一格小站",
+        "url": "https://yigeplus.xyz/"
+      },
+      {
+        "name": "句子控",
+        "url": "https://www.juzikong.com/"
+      },
+      {
+        "name": "中国知网",
+        "url": "https://www.cnki.net/"
+      },
+      {
+        "name": "奇迹秀",
+        "url": "http://www.qijishow.com/"
+      },
+      {
+        "name": "糗了吧",
+        "url": "https://www.qlt.net/"
+      },
+      {
+        "name": "全景故宫",
+        "url": "https://pano.dpm.org.cn/"
+      }
+    ]
+  },
+  {
+    "name": "网盘资源",
+    "child": [
+      {
+        "name": "阿里云盘资源导航",
+        "url": "https://aliyun.panpanr.com/"
+      }
+    ]
+  },
+  {
+    "name": "域名·CDN",
+    "child": [
+      {
+        "name": "万网",
+        "url": "https://wanwang.aliyun.com/"
+      },
+      {
+        "name": "GoDaddy",
+        "url": "https://sg.godaddy.com/"
+      },
+      {
+        "name": "NameSilo",
+        "url": "https://www.namesilo.com/"
+      },
+      {
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com/"
+      }
+    ]
+  },
+  {
+    "name": "导航综合",
+    "child": [
+      {
+        "name": "恰鹿导航",
+        "url": "https://hou.qialu999.com/"
+      },
+      {
+        "name": "阿虚同学的储物间",
+        "url": "https://axutongxue.com/"
+      }
+    ]
+  },
+  {
+    "name": "证书·考试",
+    "child": [
+      {
+        "name": "中国教育考试网",
+        "url": "http://www.neea.edu.cn/"
+      },
+      {
+        "name": "中国计算机技术职业资格网",
+        "url": "https://www.ruankao.org.cn/"
+      },
+      {
+        "name": "全国计算机等级考试",
+        "url": "http://ncre.neea.edu.cn/"
+      },
+      {
+        "name": "中小学教师资格考试",
+        "url": "http://ntce.neea.edu.cn/"
+      },
+      {
+        "name": "全国大学英语四、六级考试",
+        "url": "http://cet-bm.neea.edu.cn/"
+      },
+      {
+        "name": "国家普通话水平测试",
+        "url": "http://www.cltt.org/pscsignup/index.html"
+      },
+      {
+        "name": "中国人事考试网",
+        "url": "http://www.cpta.com.cn/index.html"
+      },
+      {
+        "name": "全国旅游监管服务平台",
+        "url": "https://jianguan.12301.cn/"
+      }
+    ]
+  },
+  {
+    "name": "娱乐·游戏",
+    "child": [
+      {
+        "name": "请画一个小人游戏",
+        "url": "https://www.webhek.com/post/draw-a-stickman.html"
+      },
+      {
+        "name": "线条骑士",
+        "url": "https://www.linerider.com/"
+      },
+      {
+        "name": "Agar.io",
+        "url": "https://agar.io/"
       }
     ]
   }
