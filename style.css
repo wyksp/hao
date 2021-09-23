@@ -30,7 +30,8 @@ a {
     color: var(--font-color-item);
 }
 
-th {
+td {
+    text-align: center;
     background: var(--bg-color-item);
     padding: var(--font-size);
 }

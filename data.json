@@ -1,0 +1,48 @@
+[
+  {
+    "name": "影视在线",
+    "child": [
+      {
+        "name": "爱剧网",
+        "url": "https://www.aitvplay.com/"
+      },
+      {
+        "name": "谷易电影",
+        "url": "https://www.guyidy.com/"
+      },
+      {
+        "name": "555电影",
+        "url": "https://555dy1.com/"
+      },
+      {
+        "name": "更看影视",
+        "url": "https://www.gengkan.com/"
+      },
+      {
+        "name": "追剧人",
+        "url": "https://www.zhuijuren.cc/"
+      },
+      {
+        "name": "低端影视",
+        "url": "https://ddrk.me/"
+      },
+      {
+        "name": "厂长资源",
+        "url": "https://qianoo.cn/"
+      },
+      {
+        "name": "日剧坊",
+        "url": "https://www.rjfang.com/"
+      }
+    ]
+  },
+  {
+    "name": "影视资源",
+    "child": [
+      {
+        "name": "人人影视分享站",
+        "url": "https://yyets.dmesg.app/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script>
+        const colSpn = 2;
+        $.getJSON('data.json', function (data) {
+
+            const mytable = document.getElementById('mytable');
+            for (let groupPosition in data) {
+                const trNode = mytable.insertRow();
+                const tdNode = trNode.insertCell();
+                tdNode.colSpan = colSpn
+                tdNode.setAttribute("class", "group-title")
+                tdNode.innerHTML = data[groupPosition].name;
+
+                for (let rowPosition = 0; rowPosition < data[groupPosition].child.length / colSpn; rowPosition++) {
+                    const trNode0 = mytable.insertRow();
+                    for (let childPosition = 0; childPosition < colSpn; childPosition++) {
+                        const tdNode0 = trNode0.insertCell();
+                        tdNode0.innerHTML = "<a href='" + data[groupPosition].child[rowPosition * colSpn + childPosition].url + "'>" + data[groupPosition].child[rowPosition * colSpn + childPosition].name + "</a>";
+                    }
+                }
+
+            }
+        });
+
+    </script>
+</head>
+<body>
+<table id="mytable">
+
+</table>
+</body>
+</html>
