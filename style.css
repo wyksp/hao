@@ -1,3 +1,8 @@
+:root {
+    --font-size-item: 2.5em;
+    --font-size-title: 2.5em;
+}
+
 body {
 
 }
@@ -11,15 +16,33 @@ table {
 
 .group-title {
     color: #aaaaaa;
-    font-size: 2.5em;
+    font-size: var(--font-size-title);
     background: #424242;
     padding: 1em;
 }
 
 a {
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: var(--font-size-item);
     color: #399E92;
+}
+
+/*平板竖屏*/
+@media screen and (orientation: landscape) and (min-device-width: 700px) {
+    a {
+        text-decoration: none;
+        font-size: 1em;
+        color: #399E92;
+    }
+}
+
+/*PC*/
+@media screen and (orientation: landscape) and (min-device-width: 1080px) {
+    a {
+        text-decoration: none;
+        font-size: 2em;
+        color: #399E92;
+    }
 }
 
 th {
