@@ -3,10 +3,15 @@
     --bg-color-item: #303030;
     --font-color-item: #399E92;
     --font-color-title: #AAAAAA;
+
+    --font-size: 2.5em;
+}
+
+body {
+    background: var(--bg-color);
 }
 
 table {
-    background: var(--bg-color);
     margin: 0 auto;
     width: 100%;
     table-layout: fixed;
@@ -14,48 +19,18 @@ table {
 
 .group-title {
     color: var(--font-color-title);
-    font-size: 2.5em;
+    font-size: var(--font-size);
     background: transparent;
     padding: 1em;
 }
 
 a {
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: var(--font-size);
     color: var(--font-color-item);
-}
-
-/*平板竖屏*/
-@media screen and (orientation: landscape) and (min-device-width: 700px) {
-    .group-title {
-        color: var(--font-color-title);
-        font-size: 1em;
-        background: transparent;
-        padding: 1em;
-    }
-    a {
-        text-decoration: none;
-        font-size: 1em;
-        color: var(--font-color-item);
-    }
-}
-
-/*PC*/
-@media screen and (orientation: landscape) and (min-device-width: 1080px) {
-    .group-title {
-        color: var(--font-color-title);
-        font-size: 2em;
-        background: transparent;
-        padding: 1em;
-    }
-    a {
-        text-decoration: none;
-        font-size: 2em;
-        color: var(--font-color-item);
-    }
 }
 
 th {
     background: var(--bg-color-item);
-    padding: 2.5em;
+    padding: var(--font-size);
 }
