@@ -1,51 +1,61 @@
 :root {
-    --font-size-item: 2.5em;
-    --font-size-title: 2.5em;
-}
-
-body {
-
+    --bg-color: #424242;
+    --bg-color-item: #303030;
+    --font-color-item: #399E92;
+    --font-color-title: #AAAAAA;
 }
 
 table {
-    background: #424242;
+    background: var(--bg-color);
     margin: 0 auto;
     width: 100%;
     table-layout: fixed;
 }
 
 .group-title {
-    color: #aaaaaa;
-    font-size: var(--font-size-title);
-    background: #424242;
+    color: var(--font-color-title);
+    font-size: 2.5em;
+    background: transparent;
     padding: 1em;
 }
 
 a {
     text-decoration: none;
-    font-size: var(--font-size-item);
-    color: #399E92;
+    font-size: 2.5em;
+    color: var(--font-color-item);
 }
 
 /*平板竖屏*/
 @media screen and (orientation: landscape) and (min-device-width: 700px) {
+    .group-title {
+        color: var(--font-color-title);
+        font-size: 1em;
+        background: transparent;
+        padding: 1em;
+    }
     a {
         text-decoration: none;
         font-size: 1em;
-        color: #399E92;
+        color: var(--font-color-item);
     }
 }
 
 /*PC*/
 @media screen and (orientation: landscape) and (min-device-width: 1080px) {
+    .group-title {
+        color: var(--font-color-title);
+        font-size: 2em;
+        background: transparent;
+        padding: 1em;
+    }
     a {
         text-decoration: none;
         font-size: 2em;
-        color: #399E92;
+        color: var(--font-color-item);
     }
 }
 
 th {
-    background: #303030;
+    background: var(--bg-color-item);
     padding: 2.5em;
 }
