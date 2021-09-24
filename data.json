@@ -41,6 +41,18 @@
       {
         "name": "樱花动漫",
         "url": "http://www.imomoe.la/"
+      },
+      {
+        "name": "嘶哩嘶哩",
+        "url": "http://www.silisili.in/"
+      },
+      {
+        "name": "ZzzFun动漫视频网",
+        "url": "http://www.zzzfun.com/"
+      },
+      {
+        "name": "ANG动漫",
+        "url": "http://angdm.com/"
       }
     ]
   },
@@ -68,6 +80,10 @@
         "url": "http://gaoqing.la/"
       },
       {
+        "name": "XijingTv",
+        "url": "http://xijing.tv/movie/index"
+      },
+      {
         "name": "下片王",
         "url": "http://www.xiepp.cc/"
       },
@@ -86,6 +102,10 @@
       {
         "name": "银色子弹字幕组",
         "url": "https://www.sbsub.com/"
+      },
+      {
+        "name": "蜜柑计划",
+        "url": "https://mikanani.me/"
       }
     ]
   },
