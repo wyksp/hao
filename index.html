@@ -7,6 +7,9 @@
     <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         const colSpn0 = 3;
+        $.ajaxSetup({
+            cache: false
+        });
         $.getJSON('data.json', function (data) {
             var mytable = document.getElementById('mytable');
             for (var groupPosition = 0; groupPosition < data.length; groupPosition++) {
