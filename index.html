@@ -6,23 +6,27 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="jquery-3.6.0.min.js"></script>
     <script>
-        const colSpn0 = 3;
-        $.ajaxSetup({
-            cache: false
-        });
+        let colSpn0 = 3;
+        if (screen.width >= 1920) {
+            colSpn0 = 6
+        } else if (screen.width >= 1080) {
+            colSpn0 = 5
+        } else if (screen.width >= 720) {
+            colSpn0 = 4
+        }
         $.getJSON('data.json', function (data) {
-            var mytable = document.getElementById('mytable');
-            for (var groupPosition = 0; groupPosition < data.length; groupPosition++) {
-                var groupTitle = data[groupPosition];
-                var groupTitleRow = mytable.insertRow();
-                var groupTitleCell = groupTitleRow.insertCell();
+            const mytable = document.getElementById('mytable');
+            for (let groupPosition = 0; groupPosition < data.length; groupPosition++) {
+                const groupTitle = data[groupPosition];
+                const groupTitleRow = mytable.insertRow();
+                const groupTitleCell = groupTitleRow.insertCell();
                 groupTitleCell.colSpan = colSpn0
                 groupTitleCell.setAttribute("class", "group-title")
                 groupTitleCell.innerHTML = groupTitle.name;
-                var groupChildSize = groupTitle.child.length;
-                for (var rowPosition = 0; rowPosition < Math.ceil(groupTitle.child.length / colSpn0); rowPosition++) {
-                    var childRow = mytable.insertRow();
-                    var temp = colSpn0;
+                let groupChildSize = groupTitle.child.length;
+                for (let rowPosition = 0; rowPosition < Math.ceil(groupTitle.child.length / colSpn0); rowPosition++) {
+                    const childRow = mytable.insertRow();
+                    let temp = colSpn0;
                     if (groupChildSize > colSpn0) temp = colSpn0;
                     else temp = groupChildSize;
                     groupChildSize = groupChildSize - colSpn0;
