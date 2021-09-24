@@ -35,3 +35,11 @@ td {
     background: var(--bg-color-item);
     padding: var(--font-size);
 }
+
+@media screen and (min-device-width: 1920px) {
+
+    :root {
+        --font-size: 1.5em;
+    }
+
+}
