@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <title>æˆ‘çš„å¯¼èˆª</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk">
+    <title>ÎÒµÄµ¼º½</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         const colSpn0 = 3;
         $.getJSON('data.json', function (data) {
@@ -28,7 +28,6 @@
                         childCell.innerHTML = "<a href='" + groupTitle.child[rowPosition * colSpn0 + childPosition].url + "'>" + groupTitle.child[rowPosition * colSpn0 + childPosition].name + "</a>";
                     }
                 }
-
             }
         });
 
