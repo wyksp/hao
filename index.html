@@ -32,7 +32,8 @@
                     groupChildSize = groupChildSize - colSpn0;
                     for (var childPosition = 0; childPosition < temp; childPosition++) {
                         var childCell = childRow.insertCell();
-                        childCell.innerHTML = "<a href='" + groupTitle.child[rowPosition * colSpn0 + childPosition].url + "'>" + groupTitle.child[rowPosition * colSpn0 + childPosition].name + "</a>";
+                        var childTitle = groupTitle.child[rowPosition * colSpn0 + childPosition];
+                        childCell.innerHTML = "<a href='" + childTitle.url + "' title='" + childTitle.url + "'>" + childTitle.name + "</a>";
                     }
                 }
             }
