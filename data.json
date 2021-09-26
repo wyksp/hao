@@ -185,6 +185,10 @@
     "name": "图片·图标",
     "child": [
       {
+        "name": "Pexels",
+        "url": "https://www.pexels.com/"
+      },
+      {
         "name": "iconfont",
         "url": "https://www.iconfont.cn/"
       },
@@ -286,6 +290,10 @@
       {
         "name": "全景故宫",
         "url": "https://pano.dpm.org.cn/"
+      },
+      {
+        "name": "地图选择器",
+        "url": "http://datav.aliyun.com/tools/atlas/index.html"
       }
     ]
   },
@@ -295,6 +303,10 @@
       {
         "name": "阿里云盘资源导航",
         "url": "https://aliyun.panpanr.com/"
+      },
+      {
+        "name": "阿里云盘小站",
+        "url": "https://aliyunshare.cn/"
       }
     ]
   },
