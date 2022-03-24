@@ -3,6 +3,10 @@
     "name": "影视在线",
     "child": [
       {
+        "name": "奇优影院",
+        "url": "https://www.sx0371.com/"
+      },
+      {
         "name": "爱剧网",
         "url": "https://www.aitvplay.com/"
       },
